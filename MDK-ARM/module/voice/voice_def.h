@@ -1,0 +1,17 @@
+typedef enum VoiceID
+{
+    VOICE_NULL = 0,  			
+    VOICE_PLAY_INIT_STATE,
+    VOICE_PLAY_STATION, 	
+    VOICE_PLAY_REPOSITION,
+    VOICE_PLAY_ERROR, 		
+    VOICE_PLAY_OFFLINE, 	
+    VOICE_ROLL_UP, 				
+    VOICE_ROLL_DOWN, 			
+    VOICE_INSERT, 				
+    VOICE_INSERT_OK, 			
+    VOICE_CHARGE_BEGIN, 	
+    VOICE_EXTRACT, 	  		
+    VOICE_EXTRACT_OK, 	  
+
+}VoiceID_e;

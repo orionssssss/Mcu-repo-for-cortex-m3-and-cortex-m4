@@ -1,0 +1,97 @@
+T4184 000:177.611   SEGGER J-Link V7.22b Log File
+T4184 000:177.725   DLL Compiled: Jun 17 2021 17:22:49
+T4184 000:177.737   Logging started @ 2025-09-27 08:20
+T4184 000:177.749 - 177.755ms
+T4184 000:177.766 JLINK_SetWarnOutHandler(...)
+T4184 000:177.779 - 0.018ms
+T4184 000:177.791 JLINK_OpenEx(...)
+T4184 000:179.175   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T4184 000:179.563   Firmware: J-Link V9 compiled May  7 2021 16:26:12
+T4184 000:179.704   Decompressing FW timestamp took 95 us
+T4184 000:188.076   Hardware: V9.40
+T4184 000:188.117   S/N: 69408561
+T4184 000:188.149   OEM: SEGGER
+T4184 000:188.167   Feature(s): RDI, GDB, FlashDL, FlashBP, JFlash
+T4184 000:190.178   TELNET listener socket opened on port 19021
+T4184 000:190.412   WEBSRV Starting webserver
+T4184 000:190.673   WEBSRV Webserver running on local port 19080
+T4184 000:190.713 - 12.933ms returns "O.K."
+T4184 000:190.760 JLINK_GetEmuCaps()
+T4184 000:190.783 - 0.033ms returns 0xB9FF7BBF
+T4184 000:190.816 JLINK_TIF_GetAvailable(...)
+T4184 000:191.046 - 0.279ms
+T4184 000:191.123 JLINK_SetErrorOutHandler(...)
+T4184 000:191.137 - 0.020ms
+T4184 000:191.185 JLINK_ExecCommand("ProjectFile = "D:\USER\cubemx_prj\123\MDK-ARM\JLinkSettings.ini"", ...). 
+T4184 000:198.142 - 6.979ms returns 0x00
+T4184 000:198.183 JLINK_ExecCommand("Device = STM32F429ZGTx", ...). 
+T4184 000:198.566   Device "STM32F429ZG" selected.
+T4184 000:198.877 - 0.690ms returns 0x00
+T4184 000:198.901 JLINK_GetHardwareVersion()
+T4184 000:198.914 - 0.018ms returns 94000
+T4184 000:198.926 JLINK_GetDLLVersion()
+T4184 000:198.937 - 0.016ms returns 72202
+T4184 000:198.949 JLINK_GetOEMString(...)
+T4184 000:198.961 JLINK_GetFirmwareString(...)
+T4184 000:198.977 - 0.020ms
+T4184 000:198.991 JLINK_GetDLLVersion()
+T4184 000:199.001 - 0.016ms returns 72202
+T4184 000:199.013 JLINK_GetCompileDateTime()
+T4184 000:199.023 - 0.015ms
+T4184 000:199.036 JLINK_GetFirmwareString(...)
+T4184 000:199.047 - 0.016ms
+T4184 000:199.058 JLINK_GetHardwareVersion()
+T4184 000:199.069 - 0.015ms returns 94000
+T4184 000:199.081 JLINK_GetSN()
+T4184 000:199.092 - 0.016ms returns 69408561
+T4184 000:199.105 JLINK_GetOEMString(...)
+T4184 000:199.122 JLINK_TIF_Select(JLINKARM_TIF_SWD)
+T4184 000:199.831 - 0.726ms returns 0x00
+T4184 000:199.859 JLINK_HasError()
+T4184 000:199.886 JLINK_SetSpeed(2000)
+T4184 000:200.002 - 0.123ms
+T4184 000:200.252 JLINK_HasError()
+T4184 000:200.270 JLINK_SetResetType(JLINKARM_RESET_TYPE_NORMAL)
+T4184 000:200.282 - 0.018ms returns JLINKARM_RESET_TYPE_NORMAL
+T4184 000:200.295 JLINK_Reset()
+T4184 000:200.464   InitTarget() start
+T4184 000:200.489    J-Link Script File: Executing InitTarget()
+T4184 000:286.612   Can not attach to CPU. Trying connect under reset.
+T4184 000:424.189   Connecting to CPU via connect under reset failed.
+T4184 000:474.484   InitTarget() end
+T4184 000:535.549   InitTarget() start
+T4184 000:535.594    J-Link Script File: Executing InitTarget()
+T4184 000:622.354   Can not attach to CPU. Trying connect under reset.
+T4184 000:759.970   Connecting to CPU via connect under reset failed.
+T4184 000:811.700   InitTarget() end
+T4184 000:811.748 - 611.459ms
+T4184 000:811.772 JLINK_GetId()
+T4184 000:811.962   InitTarget() start
+T4184 000:811.997    J-Link Script File: Executing InitTarget()
+T4184 000:898.426   Can not attach to CPU. Trying connect under reset.
+T4184 001:035.779   Connecting to CPU via connect under reset failed.
+T4184 001:086.565   InitTarget() end
+T4184 001:149.322   InitTarget() start
+T4184 001:149.366    J-Link Script File: Executing InitTarget()
+T4184 001:235.806   Can not attach to CPU. Trying connect under reset.
+T4184 001:372.586   Connecting to CPU via connect under reset failed.
+T4184 001:423.032   InitTarget() end
+T4184 001:423.078 - 611.313ms returns 0x00000000
+T4184 001:423.102 JLINK_GetId()
+T4184 001:423.347   InitTarget() start
+T4184 001:423.380    J-Link Script File: Executing InitTarget()
+T4184 001:510.106   Can not attach to CPU. Trying connect under reset.
+T4184 001:646.773   Connecting to CPU via connect under reset failed.
+T4184 001:697.176   InitTarget() end
+T4184 001:759.225   InitTarget() start
+T4184 001:759.275    J-Link Script File: Executing InitTarget()
+T4184 001:845.762   Can not attach to CPU. Trying connect under reset.
+T4184 001:983.385   Connecting to CPU via connect under reset failed.
+T4184 002:033.679   InitTarget() end
+T4184 002:033.724 - 610.628ms returns 0x00000000
+T4184 002:040.734 JLINK_GetFirmwareString(...)
+T4184 002:040.770 - 0.042ms
+T4184 003:401.733 JLINK_Close()
+T4184 003:413.587 - 11.888ms
+T4184 003:413.628   
+T4184 003:413.641   Closed

@@ -1,0 +1,4 @@
+{
+    "sonarlint.pathToCompileCommands": "${workspaceFolder}\\build\\123\\compile_commands.json",
+    "cmake.sourceDirectory": "D:/USER/cubemx_prj/123/MDK-ARM/Matrix_Hub_v1.52"
+}
